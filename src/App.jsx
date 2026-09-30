@@ -43,7 +43,6 @@ async function callAI(messages, apiKey) {
 }
 
 async function detectAndClusterGaps(papers, useRAG) {
-  const apiKey =""
 
   // RAG
   let ragContext = "";
