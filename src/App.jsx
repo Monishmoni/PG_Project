@@ -43,7 +43,7 @@ async function callAI(messages, apiKey) {
 }
 
 async function detectAndClusterGaps(papers, useRAG) {
-  const apiKey = process.env.REACT_APP_GROQ_API_KEY;
+  const apiKey =""
 
   // RAG
   let ragContext = "";
