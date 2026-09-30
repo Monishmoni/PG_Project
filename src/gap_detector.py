@@ -15,7 +15,7 @@ def detect_gaps_in_chunk(chunk: str) -> List[str]:
     """
     Detect research gaps in a single text chunk using Claude.
 
-    Args:
+    Args:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
         chunk: A text chunk from a research paper.
 
     Returns:
