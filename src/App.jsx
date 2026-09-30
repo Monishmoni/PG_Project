@@ -43,6 +43,7 @@ async function callAI(messages, apiKey) {
 }
 
 async function detectAndClusterGaps(papers, useRAG) {
+  const apiKey = import.meta.env.VITE_GROQ_API_KEY;
 
   // RAG
   let ragContext = "";
